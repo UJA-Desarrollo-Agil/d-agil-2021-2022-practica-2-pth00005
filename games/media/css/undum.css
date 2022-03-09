@@ -22,7 +22,7 @@ body {
 }
 #title {
     max-width: 28em;
-    background: #e6e6c6 url("../img/title_bg.jpg") repeat -1.1em -1.1em;
+    background: #e6e6c6 url("../img/prueba1.jpg") repeat -1.1em -1.1em;
     margin: 2.2em auto 1.1em auto;
     padding: 1.7em;
     border: 1.1em solid rgba(0,0,0,0.25);
@@ -30,7 +30,7 @@ body {
 }
 #title .label {
     overflow: hidden;
-    background: #e6e6c6 url("../img/text_bg.jpg") repeat left top;
+    /**background: #e6e6c6 url("../img/text_bg.jpg") repeat left top;*/
     padding: 2.0em;
     margin: auto;
     max-width: 18em;
@@ -79,7 +79,7 @@ body {
     font-size: 0.9em;
     font-style: italic;
     text-align: center;
-    color: #987;
+    color: rgb(43, 38, 33);
 }
 #title .noscript_message {
     left: 0;
@@ -246,7 +246,7 @@ img.float_left {
     border-radius: 4px;
 }
 .buttons button:hover {
-    background: #987;
+    background: rgb(58, 51, 45);
 }
 .buttons button + button {
     margin-left: 0.3em;

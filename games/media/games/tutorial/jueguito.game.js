@@ -35,12 +35,16 @@ undum.game.situations = {
     ),
 
     esperar: new undum.SimpleSituation(
-        "<p>Decides esperar al profesor, han pasado 20 minutos, tus compañeros comienzan a irse, esta vez <a href='buscarvictor'>pasas por su despacho</a></p>"
+        "<p>Decides esperar al profesor, han pasado 20 minutos, tus compañeros comienzan a irse, esta vez <a href='buscarvictor'>pasas por su despacho</a>,<a href='volveracasa'> solo quieres volver a casa a dormir</a></p>"
     ),
 
     seguirdurmiendo: new undum.SimpleSituation(
         "<p>Decidiste seguir durmiendo, ahora nunca vivirás la misteriosa aventura que te esperaba en el campus.\
         <h1>FIN</h1></p>"
+    ),
+
+    volveracasa: new undum.SimpleSituation(
+        "<p>Enhorabuena! Decidiste volver a casa porque eres una persona muy perezosa que dificilmente llegará a ser alguien en la vida. <h1>FIN</h1></p>"
     ),
 
     cafeteria: new undum.SimpleSituation(
@@ -61,17 +65,41 @@ undum.game.situations = {
     ),
 
     malavida: new undum.SimpleSituation(
-        "<p>fghj</p>"
+        "<p>Has decidido ir al Malavida, ya sabes como va a acabar esto...\
+        ¿Por qué eres así? Ya estás borracho otra vez, ni si quiera tu madre está orgullosa de ti.\
+       <a href='replanteatelavida'>Replantéate tu vida</a>  o <a href='siguesbebiendo'>sigue bebiendo.</a></p>"
         ,
         {
             tags: ["buscarvictoropciones","buscarvictoropcionesaux"],
             heading: "Cafetería Malavida"
         }
+    ),
 
+    siguesbebiendo: new undum.SimpleSituation(
+        "<p>Has escogido el camino del alcoholismo, tus padres se han cansado de advertirte en vano sobre las consecuencias del abuso del alcohol. Así que han decidido echarte de casa, ya nunca sabrás lo que le ocurrió a Victor y tampoco aprenderás a programar. \
+        Tu vida se ha convertido en absoluta decadencia debido a tus nefastas decisiones. <h1>FIN</h1></p>"
+    ),
+
+    replanteatelavida: new undum.SimpleSituation(
+        "<p>De nuevo... </p>"
+        ,
+        {
+            enter: function(character,system,from){
+                system.doLink("buscarvictoraux");
+            }
+        }
     ),
 
     a4: new undum.SimpleSituation(
-        "<p>fghj</p>"
+        "<p>Acabas de entrar por la puerta el edificio conocido como &quot; el flan &quot;. \
+        Aquí todo está extrañamente desierto, decides pasar al fondo a ver qué está ocurriendo, para tu sorpresa:\
+        ¡HAY UN TIRANOSAURIO REX ENANO! Además, no solo has encontrado a un dinosaurio en el campus, sino que\
+        está devorándose los restos de lo que solía ser Carmen, tu profesora de Álgebra de primer, segundo, tercer\
+        y hasta quinto curso. Estás tan anonadado que ni te has percatado de que el dinosaurio luce una bata\
+        blanca en la que se lee &quot; Dr. Víctor M. Rivas &quot;. Todo encaja por fin, tu profesor ha sido\
+        brutalmente asesinado a manos de nada menos que un Tiranosaurio Rex con enanismo; pero, un momento, \
+        has pasado tanto tiempo flipando, que el dinosaurio te ha descubierto y te ha separado la cabeza del resto del cuerpo.\
+        <h1>¡Enhorabuena! Has descubierto el misterio, lástima que hayas sido devorado por un dinosaurio, ya nunca podrás contárle tu aventura a nadie. ¡FIN!</h1> </p>"
         ,
         {
             tags: ["buscarvictoropciones","buscarvictoropcionesaux"],
@@ -81,11 +109,17 @@ undum.game.situations = {
     ),
 
     plazadelospueblos: new undum.SimpleSituation(
-        "<p>fghj</p>"
+        "<p>Por alguna extraña razón has decidido ir a la plaza de los pueblos, como si ahí fueras a encontrar al asesino de tu profesor tomando el sol...\
+        Y la escena que acompaña no es en realidad muy distinta, solo que en lugar del asesino, son los alumnos de magisterio y en lugar de tomando el sol, están haciendo educación física. \
+        Concretamente, jugando a balón prisionero con una pelota roja que para tu desdicha ha aterrizado en tu cabeza.\
+        Por favor inténtalo de nuevo, esta vez sin acabar herido.</p>"
         ,
         {
             tags: ["buscarvictoropciones","buscarvictoropcionesaux"],
-            heading: "Plaza de los pueblos"
+            heading: "Plaza de los pueblos",
+            enter: function(character,system,from){
+                system.doLink("buscarvictoraux");
+            }
         }
 
     )
