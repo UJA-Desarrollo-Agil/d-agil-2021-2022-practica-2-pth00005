@@ -22,7 +22,7 @@ jQuery.fx.off=false
 undum.game.situations = {
     start: new undum.SimpleSituation(
 		"<h1>Tu habitación</h1>\
-        <img src='C:/Users/palom/Desktop/d-agil-2021-2022-practica-2-pth00005/games/media/img/infierno.jpg' class='float_right' width='300' height='170'>\
+        <img src='./media/img/infierno.jpg' class='float_right' width='300' height='170'>\
 	    <p>Acaba de sonar el despertador, has dormido tus 8 horitas porque PLATEA se cayó y decidiste ir pronto a la cama.\
         Sin embargo, no te encuentras descansado en absoluto, pero justo hoy tienes clase con Víctor, el profesor de Desarrollo Ágil.\ Tras unos minutos de reflexión en la cama, decides:\
          <a href='iraclase'> ir a clase </a>,<a href='seguirdurmiendo'> seguir durmiendo. </a> </p>"
@@ -30,7 +30,7 @@ undum.game.situations = {
     ),
     iraclase: new undum.SimpleSituation(
         "<h1>Edificio A3</h1>\
-        <img src='C:/Users/palom/Desktop/d-agil-2021-2022-practica-2-pth00005/games/media/img/a3.jpg' class='float_right' width='300' height='170'>\
+        <img src='./media/img/a3.jpg' class='float_right' width='300' height='170'>\
         <p>Decidiste ir a clase, gran elección, de otro modo, Víctor se sentiría defraudado contigo. Llegas al laboratorio de prácticas tras\
          un soleado y tranquilo paseo pero; sorprendentemente, el profesor aún no ha llegado y decides: \
          <a href='buscarvictor'> pasar por su despacho </a>, total, ya has madrugado, o <a href='esperar'> esperar </a> , mejor si no viene.</p>"
@@ -50,7 +50,7 @@ undum.game.situations = {
     ),
 
     cafeteria: new undum.SimpleSituation(
-        " <img src='C:/Users/palom/Desktop/d-agil-2021-2022-practica-2-pth00005/games/media/img/Kosovo es Serbia.jpg' class='float_right' width='250' height='370'>\
+        " <img src='./media/img/Kosovo es Serbia.jpg' class='float_right' width='250' height='370'>\
         <p>Llegas a la cafetería y hay un abarrotamiento de gente, crees que por fin vas a encontrar respuestas\
         a lo acontecido. Cuando ves que hay muchos jóvenes universitarios que  sujetan pancartas y parecen descontentos; tú, sin\
         entender nada lees de una cartulina con la bandera de Serbia: &quot;Kosovo es Serbia&quot;.\
@@ -79,7 +79,7 @@ undum.game.situations = {
     ),
 
     siguesbebiendo: new undum.SimpleSituation(
-        "<center><img src='C:/Users/palom/Desktop/d-agil-2021-2022-practica-2-pth00005/games/media/img/indigencia.jpg' class='middle' width='400' height='200'></centre>\
+        "<center><img src='./media/img/indigencia.jpg' class='middle' width='400' height='200'></centre>\
         <p>Has escogido el camino del alcoholismo, tus padres se han cansado de advertirte en vano sobre las consecuencias del abuso del alcohol. Así que han decidido echarte de casa, ya nunca sabrás lo que le ocurrió a Victor y tampoco aprenderás a programar. \
         Tu vida se ha convertido en absoluta decadencia debido a tus nefastas decisiones. <h1>FIN</h1></p>"
     ),
@@ -95,7 +95,7 @@ undum.game.situations = {
     ),
 
     a4: new undum.SimpleSituation(
-        "<div align='center'><img src='C:/Users/palom/Desktop/d-agil-2021-2022-practica-2-pth00005/games/media/img/dino.jpg' class='float_right' width='450' height='280'></div></center>\
+        "<div align='center'><img src='./media/img/dino.jpg' class='float_right' width='450' height='280'></div></center>\
         <p>Acabas de entrar por la puerta del edificio conocido como &quot; el flan &quot;. \
         Aquí todo está extrañamente desierto, decides pasar al fondo a ver qué está ocurriendo, para tu sorpresa:\
         ¡HAY UN TIRANOSAURIO REX ENANO! Además, no solo has encontrado a un dinosaurio en el campus, sino que\
@@ -114,7 +114,7 @@ undum.game.situations = {
     ),
 
     plazadelospueblos: new undum.SimpleSituation(
-        "<center><img src='C:/Users/palom/Desktop/d-agil-2021-2022-practica-2-pth00005/games/media/img/plaza.jpg' class='middle' width='370' height='200'></center>\
+        "<center><img src='./media/img/plaza.jpg' class='middle' width='370' height='200'></center>\
         <p>Por alguna extraña razón has decidido ir a la plaza de los pueblos, como si ahí fueras a encontrar al asesino de tu profesor tomando el sol...\
         Y la escena que acompaña no es en realidad muy distinta, solo que en lugar del asesino, son los alumnos de magisterio y en lugar de tomando el sol, están haciendo educación física. \
         Concretamente, jugando a balón prisionero con una pelota roja que para tu desdicha ha aterrizado en tu cabeza.\
