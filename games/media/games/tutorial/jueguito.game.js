@@ -131,60 +131,6 @@ undum.game.situations = {
     )
 };
 
-
-
-
-// Ejemplo de declaración separada
-undum.game.situations["calabozo"]=new undum.SimpleSituation(
-			"<h1>Calabozo</h1>\
-			<p>En el proyecto original del arquitecto, el calabozo era con diferencia la sala más grande del castillo.</p>\
-			Estaba formado por tres estancias comunicadas entre si por aperturas diáfanas. La primera estancia contenía una\
-			completa cocina, con dos ambientes separados que distinguían la zona de trabajo del <em>living</em>.\
-			La segunda, aún mayor, era el recinto seleccionado para incluir un baño completo con jacuzzi, sauna turca y ducha\
-			de aromas. Finalmente, la tercera, albergaba una habitación de estilo colonial cuya principal \
-			joya era la cómoda cama <em>king size</em>, autocalefactable.</p>\
-			<p>Desgraciadamente, en un pequeño despiste del ayudante del arquitecto, los planos dieron a parar al foso de los cocodrilos.\
-			Por más que el pobre muchacho se afanó en convencer a los reptiles de que soltaran de sus fauces los importantes pergaminos,\
-			el resultado fue nulo.</p>\
-			<p>Finalmente, se optó por hacer un profundo agujero en la tierra que hiciera las funciones de calabozo. \
-			Por supuesto, era una solución temporal... por lo que es lo único del castillo que sigue intacto tras varios siglos.</p>\
-			<p>Por tanto aquí acaba tu aventura. Fue un notable intento, pero has acabado con tus huesos \
-			en el calabozo por los siglos de los siglos.</p>\
-			<h1>Fin</h1>"
-		);
-
-// ---------------------------------------------------------------------------
-/* The Id of the starting situation. */
 undum.game.start = "start";
 
-// ---------------------------------------------------------------------------
-/* Here we define all the qualities that our characters could
- * possess. We don't have to be exhaustive, but if we miss one out then
- * that quality will never show up in the character bar in the UI. */
-undum.game.qualities = {
-    antorcha: new undum.OnOffQuality(
-        "Antorcha", {priority:"0001", group:'inventario', onDisplay:"&#10003;"}
-    ),
-	  llave: new undum.OnOffQuality(
-        "Llave", {priority:"0002", group:'inventario', onDisplay:"&#10003;"}
-    )
-};
 
-// ---------------------------------------------------------------------------
-/* The qualities are displayed in groups in the character bar. This
- * determines the groups, their heading (which can be null for no
- * heading) and ordering. QualityDefinitions without a group appear at
- * the end. It is an error to have a quality definition belong to a
- * non-existent group. */
-undum.game.qualityGroups = {
-    inventario: new undum.QualityGroup('Inventario', {priority:"0001"})
-};
-
-// ---------------------------------------------------------------------------
-/* This function gets run before the game begins. It is normally used
- * to configure the character at the start of play. */
-undum.game.init = function(character, system) {
-    system.setQuality( "antorcha" , false )
-    system.setQuality( "llave" , false )
-    system.setCharacterText("<p>¡Comienzas tu fascinante aventura!</p>");
-};
