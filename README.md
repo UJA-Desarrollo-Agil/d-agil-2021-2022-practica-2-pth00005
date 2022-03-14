@@ -1,6 +1,7 @@
 # Práctica 2 Desarrollo Ágil
 En esta práctica se nos ha propuesto crear un juego conversacional con Undum. Para ello, hemos narrado una historia con finales alternativos, dependiendo de las elecciones del jugador.
 # Autor
+<<<<<<< HEAD
 Paloma Torres Higueras - pth00005@red.ujaen.es
 Desarrollo Ágil, Grado en Ingeniería Informática, Universidad de Jaén.
 Curso 2021/2022
@@ -14,6 +15,21 @@ Curso 2021/2022
 
 
 # Título y descripción del juego <a name="id1"></a>
+=======
+* Paloma Torres Higueras - pth00005@red.ujaen.es
+* Desarrollo Ágil, Grado en Ingeniería Informática, Universidad de Jaén.
+* Curso 2021/2022
+
+# Índice
+
+ 1. Título y descripción del juego
+ 2. Escenarios del juego
+ 3. URL del tablero Trello  
+ 4. Capturas de pantalla del tablero en Trello
+
+
+# Título y descripción del juego 
+>>>>>>> 9a4b55b80935996545a088bd7cbbfb9c16876452
 
 ##  Los Crímenes en la Rue UJA
 En esta historia eres un estudiante de ingeniería informática que va a clase, como cualquier día; aunque este no será un día de lo más común para ti. Vivirás una aventura cuando descubras un crimen que se ha llevado a cabo en la UJA. ¿Decidirás investigar o preferirás continuar en la inmundicia de tu plana existencia?
@@ -36,4 +52,15 @@ Al igual que en la vida misma, no suele ser de gran ayuda escoger las decisiones
 La URL del tablero es: https://trello.com/b/CTKMEroA/pr%C3%A1ctica-2
 
 # Capturas de pantalla del tablero en Trello
+<<<<<<< HEAD
  <img src="https://github.com/UJA-Desarrollo-Agil/dagil-2021-pr2-jjpg0006/raw/master/capturas/cap1.png" alt="cap1" style="max-width: 100%;">
+=======
+## Captura inicial de las tareas en Trello:
+ <img src="https://github.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-2-pth00005/blob/master/games/media/img/1.PNG" alt="cap1" style="max-width: 100%;">
+ 
+## Segunda captura de las tareas en Trello:
+<img src="https://github.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-2-pth00005/blob/master/games/media/img/2.PNG" alt="cap1" style="max-width: 100%;">
+
+## Última captura de las tareas en Trello:
+ <img src="https://github.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-2-pth00005/blob/master/games/media/img/3.PNG" alt="cap1" style="max-width: 100%;">
+>>>>>>> 9a4b55b80935996545a088bd7cbbfb9c16876452
