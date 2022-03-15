@@ -7,18 +7,18 @@ En esta práctica se nos ha propuesto crear un juego conversacional con Undum. P
 
 # Índice
 
- 1. Título y descripción del juego
- 2. Escenarios del juego
- 3. URL del tablero Trello  
- 4. Capturas de pantalla del tablero en Trello
+ 1. [Título y descripción del juego](#i1)
+ 2. [Escenarios del juego](#i2)
+ 3. [URL del tablero Trello](#i3)  
+ 4. [Capturas de pantalla del tablero en Trello](#i4)
 
 
-# Título y descripción del juego 
+# Título y descripción del juego<a name="i1"></a> 
 
 ##  Los Crímenes en la Rue UJA
 En esta historia eres un estudiante de ingeniería informática que va a clase, como cualquier día; aunque este no será un día de lo más común para ti. Vivirás una aventura cuando descubras un crimen que se ha llevado a cabo en la UJA. ¿Decidirás investigar o preferirás continuar en la inmundicia de tu plana existencia?
 
-# Escenarios
+# Escenarios<a name="i2"></a>
 
  - **Tu habitación:** Aquí comienza tu apasionante y sombría historia, acabas de levantarte y deberías ir a clase. 
  - **Edificio A3:** Estás en el laboratorio de prácticas esperando impacientemente a tu profesor que por alguna razón se ha retrasado, al principio esto no te genera mayor preocupación, hasta que el reloj marca las nueve en punto y Víctor; tu profesor, aún no se ha pronunciado. Tendrás que decantarte por buscarle o volver a casa.
@@ -32,10 +32,10 @@ En esta historia eres un estudiante de ingeniería informática que va a clase, 
 Como ofrenda a los jugadores, les será ofrecida una información, ya obviada por algunos; no tanto para otros. 
 Al igual que en la vida misma, no suele ser de gran ayuda escoger las decisiones más perezosas.
 
-# URL del tablero Trello
+# URL del tablero Trello<a name="i3"></a>
 La URL del tablero es: https://trello.com/b/CTKMEroA/pr%C3%A1ctica-2
 
-# Capturas de pantalla del tablero en Trello
+# Capturas de pantalla del tablero en Trello<a name="i4"></a>
 ## Captura inicial de las tareas en Trello:
  <img src="https://github.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-2-pth00005/blob/master/games/media/img/1.PNG" alt="cap1" style="max-width: 100%;">
  
